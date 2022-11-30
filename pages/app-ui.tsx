@@ -61,6 +61,7 @@ export default function AppUi() {
             </p>
             <div className="text-red-400 my-6">Behance.link/profile</div>
           </div>
+          
         </div>
       </div>
 
