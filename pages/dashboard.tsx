@@ -41,7 +41,7 @@ export default function Dashboard() {
           </div>
         </div>
         <div className="sm:w-[50%] ">
-          <img src="./image/photo2.png" alt="loding..." classNa/>
+          <img src="./image/photo2.png" alt="loding..." />
         </div>
       </div>
       <div className="sm:flex my-6 sm:my-20 justify-between">
@@ -78,7 +78,7 @@ export default function Dashboard() {
           </div>
         </div>
         <div className="sm:w-[50%] ">
-          <img src="./image/photo4.png" alt="loding..." classNa/>
+          <img src="./image/photo4.png" alt="loding..." />
         </div>
       </div>
     </Root>
