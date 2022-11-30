@@ -76,7 +76,7 @@ export default function AppUi() {
           </div>
         </div>
         <div className="sm:w-[50%] ">
-          <img src="./image/photo4.png" alt="loding..." classNa/>
+          <img src="./image/photo4.png" alt="loding..." />
         </div>
       </div>
     </Root>
