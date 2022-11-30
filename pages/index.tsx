@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Root>
-        <div className="w-[96%] h-[400px] bg-gray-500 rounded-lg  mx-auto my-16"></div>
+        <div className="w-[96%] image bg-gray-500 rounded-lg  mx-auto my-16"></div>
         <Story />
         <Portfolio />
       </Root>
@@ -23,4 +23,7 @@ const Root = styled.div`
   max-width: 1200px;
   width: 100%;
   margin: auto;
+  .image{
+    aspect-ratio: 4 / 2;
+  }
 `;

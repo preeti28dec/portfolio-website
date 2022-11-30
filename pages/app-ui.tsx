@@ -10,16 +10,18 @@ export default function AppUi() {
           <img src="./image/photo1.png" alt="loding..." />
         </div>
         <div className="sm:w-[50%] right">
-          <div className="font-semibold text-2xl my-6">
-            Food App - Design for Chai Maska
+        <div>
+            <div className="font-semibold text-2xl my-6">
+              Food App - Design for Chai Maska
+            </div>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit
+              <br />
+              aliqua dolor do amet sint. Velit officia consequat <br /> duis
+              enim velit mollit. Eamet.
+            </p>
+            <div className="text-red-400 my-6">Behance.link/profile</div>
           </div>
-          <p>
-            Amet minim mollit non deserunt ullamco est sit
-            <br />
-            aliqua dolor do amet sint. Velit officia consequat <br /> duis enim
-            velit mollit. Eamet.
-          </p>
-          <div className="text-red-400 my-6">Behance.link/profile</div>
         </div>
       </div>
 
@@ -38,7 +40,7 @@ export default function AppUi() {
             <div className="text-red-400 my-6">Behance.link/profile</div>
           </div>
         </div>
-        <div className="sm:w-[50%] ">
+        <div className=" ">
           <img src="./image/photo2.png" alt="loding..." />
         </div>
       </div>
@@ -47,16 +49,18 @@ export default function AppUi() {
           <img src="./image/photo3.png" alt="loding..." />
         </div>
         <div className="sm:w-[50%] right">
-          <div className="font-semibold text-2xl my-6">
-            Food App - Design for Chai Maska
+        <div>
+            <div className="font-semibold text-2xl my-6">
+              Food App - Design for Chai Maska
+            </div>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit
+              <br />
+              aliqua dolor do amet sint. Velit officia consequat <br /> duis
+              enim velit mollit. Eamet.
+            </p>
+            <div className="text-red-400 my-6">Behance.link/profile</div>
           </div>
-          <p>
-            Amet minim mollit non deserunt ullamco est sit
-            <br />
-            aliqua dolor do amet sint. Velit officia consequat <br /> duis enim
-            velit mollit. Eamet.
-          </p>
-          <div className="text-red-400 my-6">Behance.link/profile</div>
         </div>
       </div>
 
@@ -75,7 +79,7 @@ export default function AppUi() {
             <div className="text-red-400 my-6">Behance.link/profile</div>
           </div>
         </div>
-        <div className="sm:w-[50%] ">
+        <div className=" ">
           <img src="./image/photo4.png" alt="loding..." />
         </div>
       </div>
@@ -98,6 +102,7 @@ margin: 0px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center
   }
   .left {
     display: flex;

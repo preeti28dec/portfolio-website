@@ -3,10 +3,9 @@ import styled from "styled-components";
 function WebUi() {
   return (
     <Root>
-      {/* <div className="box_div">1</div> */}
       <div className="title">Web work</div>
      <div className="my-12">
-     <div className="flex gap-12 items-center">
+     <div className="sm:flex mx-4 gap-12 items-center">
         <div className="">
           <div className="">
             <img src="./image/photo1.png" alt="loding..." />
@@ -42,7 +41,7 @@ function WebUi() {
           </div>
         </div>
       </div>
-      <div className="flex gap-12 items-center">
+      <div className="sm:flex mx-4 gap-12 items-center">
         <div className="">
           <div className="">
             <img src="./image/photo1.png" alt="loding..." />
@@ -78,7 +77,7 @@ function WebUi() {
           </div>
         </div>
       </div>
-      <div className="flex gap-12 items-center">
+      <div className="sm:flex mx-4 gap-12 items-center">
         <div className="">
           <div className="">
             <img src="./image/photo1.png" alt="loding..." />
@@ -121,9 +120,9 @@ function WebUi() {
 
 export default WebUi;
 const Root = styled.div`
-max-width: 1200px;
-width: 100%;
-margin: auto;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
   .title {
     font-size: 60px;
     text-align: center;
