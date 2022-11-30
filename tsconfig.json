@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "extends": "some/tsconfig.base",
     "types": [
       "jest",
       "cypress",
