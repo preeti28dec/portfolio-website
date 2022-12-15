@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Root>
-        <div className="w-[96%] image bg-gray-500 overflow-hidden rounded-lg  mx-auto my-16">
+        <div className="w-[96%] image overflow-hidden rounded-lg  mx-auto my-16">
           <img className="w-full h-full object-cover " src="./image/profile-img.png" alt="loding image"/>
         </div>
         <Story />
