@@ -5,7 +5,7 @@ export default function Story() {
   return (
     <Root>
       <div className="text-center">Nice to meet you</div>
-      <div className="text-7xl font-bold text-center">Hello I am ------ </div>
+      <div className="sm:text-7xl text-3xl font-bold text-center my-6">Hello I am Diwanshu</div>
       <p className="text-center text-lg font-medium mx-auto md:w-[600px]">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
         sint. Velit officia consequat  duis enim velit mollit. Exercitation
